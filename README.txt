@@ -1,8 +1,3 @@
-Perkuliahan
-
-- [x] Praktikum 1
-- [ ] Praktikum 2
-
 REMIX DEFAULT WORKSPACE
 
 Remix default workspace is present when:
