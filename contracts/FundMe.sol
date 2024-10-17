@@ -10,7 +10,7 @@ contract FundMe {
 
     function fund() public payable {
         // Minimal 1 ETH
-        require(msg.value >= 1e18, "Maaf, nilai yang anda input kurang");
+        // require(msg.value >= 1e18, "Maaf, nilai yang anda input kurang");
 
         funders.push(msg.sender);
         addressToAmountFunded[msg.sender] = msg.value;
