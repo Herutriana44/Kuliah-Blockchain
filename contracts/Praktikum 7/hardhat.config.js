@@ -16,4 +16,4 @@ module.exports = {
   solidity: "0.8.19",
 };
 
-// npx hardhat run ./test/deploy.js --network gananche
+// npx hardhat run ./test/deploy.js --network ganache
