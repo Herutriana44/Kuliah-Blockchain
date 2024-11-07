@@ -1,5 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("./tasks/block-number");
+// require("./tasks/block-number");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -15,5 +15,7 @@ module.exports = {
   },
   solidity: "0.8.19",
 };
+
+// hasil deploy 0x4e7288cC93Debe8B6C2A0a502a24df99D74a00fF date = 07112024
 
 // npx hardhat run ./test/deploy.js --network ganache
